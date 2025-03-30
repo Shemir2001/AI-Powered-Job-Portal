@@ -1,0 +1,26 @@
+{
+  "name": "streamingapp",
+  "version": "1.0.0",
+  "description": "backend for video streaming app",
+  "repository": {
+    "type": "git",
+    "url": "Video-Streaming-Application"
+  },
+  "license": "ISC",
+  "author": "shameer butt",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcryptjs": "^3.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.0",
+    "passport-google-oauth20": "^2.0.0",
+    "passport-jwt": "^4.0.1"
+  }
+}
